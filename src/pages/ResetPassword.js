@@ -3,7 +3,7 @@ import CustomInput from '../components/CustomInput'
 
 const ResetPasswordPage = () => {
   return (
-    <div className="py-5" style={{ background: " #808080", minHeight:'100vh' }}>
+    <div className="py-5" style={{ background: " #808080", minHeight: '100vh' }}>
       <br />
       <br />
       <br />

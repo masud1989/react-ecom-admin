@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const LoginPage = () => {
   return (
-    <div className="py-5" style={{ background: " #808080", minHeight:'100vh' }}>
+    <div className="py-5" style={{ background: " #808080", minHeight: '100vh' }}>
       <br />
       <br />
       <br />
@@ -20,13 +20,13 @@ const LoginPage = () => {
             </Link>
           </div>
           <div>
-          <button to='/admin' 
-            className='border-0 px-3 py-2 text-white w-100' 
-            style={{ background: "#008080" }}
-            type='submit'
-          >
-            Submit
-          </button>
+            <button to='/admin'
+              className='border-0 px-3 py-2 text-white w-100'
+              style={{ background: "#008080" }}
+              type='submit'
+            >
+              Submit
+            </button>
           </div>
         </form>
       </div>

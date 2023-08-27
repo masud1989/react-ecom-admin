@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 
-import {MenuFoldOutlined, MenuUnfoldOutlined} from '@ant-design/icons';
-import {BiAbacus, BiLogoBlogger, BiSolidDashboard} from 'react-icons/bi'
-import { FaVectorSquare, FaRing} from 'react-icons/fa'
-import { BsPeopleFill, BsFillTicketFill} from 'react-icons/bs'
-import {AiFillQuestionCircle} from 'react-icons/ai'
-import {IoIosNotifications} from 'react-icons/io'
+import { MenuFoldOutlined, MenuUnfoldOutlined } from '@ant-design/icons';
+import { BiAbacus, BiLogoBlogger, BiSolidDashboard } from 'react-icons/bi'
+import { FaVectorSquare, FaRing } from 'react-icons/fa'
+import { BsPeopleFill, BsFillTicketFill } from 'react-icons/bs'
+import { AiFillQuestionCircle } from 'react-icons/ai'
+import { IoIosNotifications } from 'react-icons/io'
 
 import { Layout, Menu, theme } from 'antd';
 import { Link, Outlet, useNavigate } from 'react-router-dom';
@@ -31,10 +31,10 @@ const MainLayout = () => {
           theme="dark"
           mode="inline"
           defaultSelectedKeys={['']}
-          onClick={({key}) => {
-            if(key === 'signout'){
+          onClick={({ key }) => {
+            if (key === 'signout') {
 
-            }else{
+            } else {
               navigate(key)
             }
           }}
@@ -143,12 +143,12 @@ const MainLayout = () => {
               icon: <AiFillQuestionCircle className="fs-4" />,
               label: "Enquiries",
             },
-            
+
           ]}
         />
       </Sider>
       <Layout>
-      <Header
+        <Header
           className="d-flex justify-content-between ps-1 pe-5"
           style={{
             padding: 0,
@@ -172,7 +172,7 @@ const MainLayout = () => {
 
             <div className="d-flex gap-3 align-items-center dropdown">
               <div >
-                <img 
+                <img
                   className="rounded-circle border border-2 border-info"
                   width={42}
                   height={42}
@@ -220,7 +220,7 @@ const MainLayout = () => {
             background: colorBgContainer,
           }}
         >
-         <Outlet/>
+          <Outlet />
         </Content>
       </Layout>
     </Layout>
