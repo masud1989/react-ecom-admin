@@ -1,13 +1,23 @@
-import React from 'react'
-import Datatable from '../components/Datatable'
+import React from 'react';
+import Datatable from '../components/Datatable';
 
 const BlogList = () => {
     return (
-        <div>
-            <h3 className='mb-4 title'>Blog List</h3>
-            <Datatable />
-        </div>
-    )
-}
+      <>
+        <section className="content-header">
+          <div className="header-icon">
+            <i className="fa fa-user-plus" />
+          </div>
+          <div className="header-title">
+            <h1>Blogs </h1>
+            <small>Blog List</small>
+          </div>
+        </section>
 
-export default BlogList
+        <Datatable />
+
+      </>
+    )
+  }
+
+  export default BlogList

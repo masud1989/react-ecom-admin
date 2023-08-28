@@ -15,6 +15,7 @@ import ColorList from './pages/ColorList';
 import CouponList from './pages/CouponList';
 import BlogList from './pages/BlogList';
 import BlogCategoryList from './pages/BlogCategoryList';
+import AddColor from './pages/AddColor';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
           <Route path='coupon-list' element={<CouponList />} />
           <Route path='blog-list' element={<BlogList />} />
           <Route path='blog-category-list' element={<BlogCategoryList />} />
+          <Route path='add-color' element={<AddColor />} />
         </Route>
       </Routes>
     </BrowserRouter>

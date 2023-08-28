@@ -3,10 +3,19 @@ import Datatable from '../components/Datatable'
 
 const CouponList = () => {
     return (
-        <div>
-            <h3 className='mb-4 title'>Coupon List</h3>
-            <Datatable />
-        </div>
+        <>
+        <section className="content-header">
+            <div className="header-icon">
+                <i className="fa fa-user-plus" />
+            </div>
+            <div className="header-title">
+                <h1>Coupons</h1>
+                <small>Coupon List</small>
+            </div>
+        </section>
+        
+        <Datatable />
+    </>
     )
 }
 

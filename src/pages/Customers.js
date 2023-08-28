@@ -3,10 +3,19 @@ import Datatable from '../components/Datatable'
 
 const Customers = () => {
   return (
-      <div>
-          <h3 className='mb-4 title'>Customers List</h3>
-          <Datatable />
-      </div>
+    <>
+      <section className="content-header">
+        <div className="header-icon">
+          <i className="fa fa-user-plus" />
+        </div>
+        <div className="header-title">
+          <h1>Customers</h1>
+          <small>Customer List</small>
+        </div>
+      </section>
+
+      <Datatable />
+    </>
   )
 }
 

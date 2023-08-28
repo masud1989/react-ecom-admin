@@ -2,6 +2,7 @@ import React from 'react'
 import {BsArrowDownRight, BsArrowUpRight} from 'react-icons/bs'
 import Chart from '../components/Chart'
 import Datatable from '../components/Datatable'
+import Tables from '../components/Tables'
 
 
 
@@ -54,7 +55,6 @@ const DashboardPage = () => {
         <h3 className='mb-4 title'>Recent Orders</h3>
         <Datatable />
       </div>
-
     </div>
   )
 }

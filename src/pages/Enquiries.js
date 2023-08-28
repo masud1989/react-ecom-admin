@@ -1,12 +1,21 @@
 import React from 'react'
-import Datatable from '../components/Datatable'
+import Datatable from '../components/Datatable';
 
 const Enquiries = () => {
   return (
-      <div>
-          <h3 className='mb-4 title'>Enquiries List</h3>
-          <Datatable />
-      </div>
+    <>
+    <section className="content-header">
+        <div className="header-icon">
+            <i className="fa fa-user-plus" />
+        </div>
+        <div className="header-title">
+            <h1>Enqueries</h1>
+            <small>Enquery List</small>
+        </div>
+    </section>
+    
+    <Datatable />
+</>
   )
 }
 
