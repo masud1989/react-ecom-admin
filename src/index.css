@@ -95,6 +95,16 @@ main::-webkit-scrollbar {
   font-size: 12px;
 }
 
+.save-btn{
+  background: #008080;
+  border: 0;
+  padding: 10px 15px;
+  color: white;
+  margin-top: 15px;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
 
 
 

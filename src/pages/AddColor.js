@@ -19,10 +19,7 @@ const AddColor = () => {
                       <div className="row">
                           <div className="col-sm-12">
                               <div className="panel panel-bd lobidrag">
-
                                   <div className="panel-body">
-
-                                      {/* ./Plugin content:powerpoint,txt,pdf,png,word,xl */}
                                       <div className="table-responsive">
                                           <table id="dataTableExample1" className="table table-bordered table-striped table-hover">
                                               <thead>
@@ -44,7 +41,6 @@ const AddColor = () => {
                                                       </td>
                                                       <td><span className="label-danger label label-default">deactive</span>
                                                       </td>
-
                                                       <td >
                                                           <button type="button" className="btn btn-add btn-sm me-1" data-toggle="modal" data-target="#update"><BsFillPencilFill /></button>
                                                           <button type="button" className="btn btn-danger btn-sm me-1" data-toggle="modal" data-target="#customer2"><BsFillTrashFill /> </button>
@@ -60,7 +56,6 @@ const AddColor = () => {
                                                       </td>
                                                       <td><span className="label-danger label label-default">deactive</span>
                                                       </td>
-
                                                       <td >
                                                           <button type="button" className="btn btn-add btn-sm me-1" data-toggle="modal" data-target="#update"><BsFillPencilFill /></button>
                                                           <button type="button" className="btn btn-danger btn-sm me-1" data-toggle="modal" data-target="#customer2"><BsFillTrashFill /> </button>
@@ -76,7 +71,6 @@ const AddColor = () => {
                                                       </td>
                                                       <td><span className="label-danger label label-default">deactive</span>
                                                       </td>
-
                                                       <td >
                                                           <button type="button" className="btn btn-add btn-sm me-1" data-toggle="modal" data-target="#update"><BsFillPencilFill /></button>
                                                           <button type="button" className="btn btn-danger btn-sm me-1" data-toggle="modal" data-target="#customer2"><BsFillTrashFill /> </button>
@@ -91,10 +85,7 @@ const AddColor = () => {
                               </div>
                           </div>
                       </div>
-                     
-                      {/* /.modal */}
                   </section>
-                  {/* /.content */}
               </div>
           </section>
       </>
