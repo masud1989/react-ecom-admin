@@ -1,9 +1,7 @@
 import React, { useState } from 'react'
 import CustomInput from '../components/CustomInput'
 import ReactQuill from 'react-quill';
-// import { InboxOutlined } from '@ant-design/icons';
 import ImgCrop from 'antd-img-crop';
-// import { UploadProps } from 'antd';
 import { Upload } from 'antd';
 import 'react-quill/dist/quill.snow.css';
 
@@ -48,23 +46,7 @@ const AddProduct = () => {
             </section>
             <form>
                 <section className='content-header'>
-                    <div className='mb-5'>
-                        <div className="row mb-3">
-                            <div className='col-12'>
-                                <ImgCrop rotationSlider>
-                                    <Upload
-                                        action="https://www.mocky.io/v2/5cc8019d300000980a055e76"
-                                        listType="picture-card"
-                                        fileList={fileList}
-                                        onChange={onChange}
-                                        onPreview={onPreview}
-                                    >
-                                        {fileList.length < 5 && '+ Upload'}
-                                    </Upload>
-                                </ImgCrop>
-                            </div>
-                        </div>
-                    </div>
+                    
                     <div className="row mt-3">
                         <div className='col-6'>
                             <CustomInput type="text" placeholder="Type Coupon Name" id="coupon-name" />
@@ -100,6 +82,24 @@ const AddProduct = () => {
                         </div>
                         <div className='col-6'>
                             <CustomInput type="text" placeholder="Discount Percentage" id="coupon-discount" />
+                        </div>
+                    </div>
+                    <div> 
+                        <div className="row mb-3">
+                        <h6>Select Images to Upload </h6>
+                            <div className='col-12'>
+                                <ImgCrop rotationSlider>
+                                    <Upload
+                                        action="https://www.mocky.io/v2/5cc8019d300000980a055e76"
+                                        listType="picture-card"
+                                        fileList={fileList}
+                                        onChange={onChange}
+                                        onPreview={onPreview}
+                                    >
+                                        {fileList.length < 10 && '+ Select'}
+                                    </Upload>
+                                </ImgCrop>
+                            </div>
                         </div>
                     </div>
 
