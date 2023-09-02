@@ -18,6 +18,10 @@ import BlogCategoryList from './pages/BlogCategoryList';
 import AddColor from './pages/AddColor';
 import AddCoupon from './pages/AddCoupon';
 import AddProduct from './pages/AddProduct';
+import AddCategory from './pages/AddCategory';
+import AddBrand from './pages/AddBrand';
+import AddBlogCategory from './pages/AddBlogCategory';
+import AddBlog from './pages/AddBlog';
 
 function App() {
   return (
@@ -31,15 +35,19 @@ function App() {
           <Route path='orders' element={<Oreder />} />
           <Route path='enquiries' element={<Enquiries />} />
           <Route path='customers' element={<Customers />} />
+          <Route path='add-category' element={<AddCategory />} />
           <Route path='category-list' element={<CategoryList />} />
+          <Route path='add-brand' element={<AddBrand />} />
           <Route path='brand-list' element={<BrandList />} />
           <Route path='product-list' element={<ProductList />} />
           <Route path='add-product' element={<AddProduct />} />
           <Route path='color-list' element={<ColorList />} />
           <Route path='add-coupon' element={<AddCoupon />} />
           <Route path='coupon-list' element={<CouponList />} />
+          <Route path='add-blog' element={<AddBlog />} />
           <Route path='blog-list' element={<BlogList />} />
           <Route path='blog-category-list' element={<BlogCategoryList />} />
+          <Route path='add-blog-category' element={<AddBlogCategory />} />
           <Route path='add-color' element={<AddColor />} />
         </Route>
       </Routes>

@@ -1,5 +1,5 @@
 import React from 'react';
-import {BsFillPencilFill, BsFillTrashFill, BsFillHandThumbsUpFill, BsFillHandThumbsDownFill} from 'react-icons/bs';
+import { BsFillPencilFill, BsFillTrashFill, BsFillHandThumbsUpFill, BsFillHandThumbsDownFill } from 'react-icons/bs';
 
 const Datatable = () => (
   <>
@@ -24,14 +24,14 @@ const Datatable = () => (
                       </thead>
                       <tbody>
                         <tr>
-                           <td className='text-center '>01.</td>
-                           <td className='text-center'><img src="https://stroyka-admin.html.themeforest.scompiler.ru/variants/ltr/images/customers/customer-4-64x64.jpg" className="rounded-circle border border-2 border-secondary" alt="User Image" width={40} height={40} /></td>
-                           <td className='text-center'>Alvaro morata</td>
-                           <td className='text-center'><span className="label-custom label label-default">admin</span>
+                          <td className='text-center '>01.</td>
+                          <td className='text-center'><img src="https://stroyka-admin.html.themeforest.scompiler.ru/variants/ltr/images/customers/customer-4-64x64.jpg" className="rounded-circle border border-2 border-secondary" alt="User Image" width={40} height={40} /></td>
+                          <td className='text-center'>Alvaro morata</td>
+                          <td className='text-center'><span className="label-custom label label-default">admin</span>
                           </td>
-                           <td className='text-center'><span className="label-danger label label-default">deactive</span>
+                          <td className='text-center'><span className="label-danger label label-default">deactive</span>
                           </td>
-                           <td className='text-center'>
+                          <td className='text-center'>
                             <button type="button" className="btn btn-add btn-sm me-1" data-toggle="modal" data-target="#update"><BsFillPencilFill /></button>
                             <button type="button" className="btn btn-danger btn-sm me-1" data-toggle="modal" data-target="#customer2"><BsFillTrashFill /> </button>
                             <button type="button" className="btn btn-success btn-sm me-1" data-toggle="modal" data-target="#customer2"><BsFillHandThumbsUpFill /> </button>
@@ -39,14 +39,14 @@ const Datatable = () => (
                           </td>
                         </tr>
                         <tr>
-                           <td className='text-center fw-bold'>02.</td>
-                           <td className='text-center'><img src="https://stroyka-admin.html.themeforest.scompiler.ru/variants/ltr/images/customers/customer-4-64x64.jpg" className="rounded-circle border border-2 border-secondary" alt="User Image" width={40} height={40} /></td>
-                           <td className='text-center'>Alvaro morata</td>
-                           <td className='text-center'><span className="label-custom label label-default">admin</span>
+                          <td className='text-center fw-bold'>02.</td>
+                          <td className='text-center'><img src="https://stroyka-admin.html.themeforest.scompiler.ru/variants/ltr/images/customers/customer-4-64x64.jpg" className="rounded-circle border border-2 border-secondary" alt="User Image" width={40} height={40} /></td>
+                          <td className='text-center'>Alvaro morata</td>
+                          <td className='text-center'><span className="label-custom label label-default">admin</span>
                           </td>
-                           <td className='text-center'><span className="label-danger label label-default">deactive</span>
+                          <td className='text-center'><span className="label-danger label label-default">deactive</span>
                           </td>
-                           <td className='text-center'>
+                          <td className='text-center'>
                             <button type="button" className="btn btn-add btn-sm me-1" data-toggle="modal" data-target="#update"><BsFillPencilFill /></button>
                             <button type="button" className="btn btn-danger btn-sm me-1" data-toggle="modal" data-target="#customer2"><BsFillTrashFill /> </button>
                             <button type="button" className="btn btn-success btn-sm me-1" data-toggle="modal" data-target="#customer2"><BsFillHandThumbsUpFill /> </button>
@@ -54,15 +54,15 @@ const Datatable = () => (
                           </td>
                         </tr>
                         <tr>
-                           <td className='text-center fw-bold'>03.</td>
-                           <td className='text-center'><img src="https://stroyka-admin.html.themeforest.scompiler.ru/variants/ltr/images/customers/customer-4-64x64.jpg" className="rounded-circle border border-2 border-secondary" alt="User Image" width={40} height={40} /></td>
-                           <td className='text-center'>Alvaro morata</td>
-                           <td className='text-center'><span className="label-custom label label-default">admin</span>
+                          <td className='text-center fw-bold'>03.</td>
+                          <td className='text-center'><img src="https://stroyka-admin.html.themeforest.scompiler.ru/variants/ltr/images/customers/customer-4-64x64.jpg" className="rounded-circle border border-2 border-secondary" alt="User Image" width={40} height={40} /></td>
+                          <td className='text-center'>Alvaro morata</td>
+                          <td className='text-center'><span className="label-custom label label-default">admin</span>
                           </td>
-                           <td className='text-center'><span className="label-danger label label-default">deactive</span>
+                          <td className='text-center'><span className="label-danger label label-default">deactive</span>
                           </td>
 
-                           <td className='text-center'>
+                          <td className='text-center'>
                             <button type="button" className="btn btn-add btn-sm me-1" data-toggle="modal" data-target="#update"><BsFillPencilFill /></button>
                             <button type="button" className="btn btn-danger btn-sm me-1" data-toggle="modal" data-target="#customer2"><BsFillTrashFill /> </button>
                             <button type="button" className="btn btn-success btn-sm me-1" data-toggle="modal" data-target="#customer2"><BsFillHandThumbsUpFill /> </button>
@@ -70,15 +70,14 @@ const Datatable = () => (
                           </td>
                         </tr>
                         <tr>
-                           <td className='text-center fw-bold'>04.</td>
-                           <td className='text-center'><img src="https://stroyka-admin.html.themeforest.scompiler.ru/variants/ltr/images/customers/customer-4-64x64.jpg" className="rounded-circle border border-2 border-secondary" alt="User Image" width={40} height={40} /></td>
-                           <td className='text-center'>Alvaro morata</td>
-                           <td className='text-center'><span className="label-custom label label-default">admin</span>
+                          <td className='text-center fw-bold'>04.</td>
+                          <td className='text-center'><img src="https://stroyka-admin.html.themeforest.scompiler.ru/variants/ltr/images/customers/customer-4-64x64.jpg" className="rounded-circle border border-2 border-secondary" alt="User Image" width={40} height={40} /></td>
+                          <td className='text-center'>Alvaro morata</td>
+                          <td className='text-center'><span className="label-custom label label-default">admin</span>
                           </td>
-                           <td className='text-center'><span className="label-danger label label-default">deactive</span>
+                          <td className='text-center'><span className="label-danger label label-default">deactive</span>
                           </td>
-
-                           <td className='text-center'>
+                          <td className='text-center'>
                             <button type="button" className="btn btn-add btn-sm me-1" data-toggle="modal" data-target="#update"><BsFillPencilFill /></button>
                             <button type="button" className="btn btn-danger btn-sm me-1" data-toggle="modal" data-target="#customer2"><BsFillTrashFill /> </button>
                             <button type="button" className="btn btn-success btn-sm me-1" data-toggle="modal" data-target="#customer2"><BsFillHandThumbsUpFill /> </button>
@@ -86,15 +85,14 @@ const Datatable = () => (
                           </td>
                         </tr>
                         <tr>
-                           <td className='text-center fw-bold'>05.</td>
-                           <td className='text-center'><img src="https://stroyka-admin.html.themeforest.scompiler.ru/variants/ltr/images/customers/customer-4-64x64.jpg" className="rounded-circle border border-2 border-secondary" alt="User Image" width={40} height={40} /></td>
-                           <td className='text-center'>Alvaro morata</td>
-                           <td className='text-center'><span className="label-custom label label-default">admin</span>
+                          <td className='text-center fw-bold'>05.</td>
+                          <td className='text-center'><img src="https://stroyka-admin.html.themeforest.scompiler.ru/variants/ltr/images/customers/customer-4-64x64.jpg" className="rounded-circle border border-2 border-secondary" alt="User Image" width={40} height={40} /></td>
+                          <td className='text-center'>Alvaro morata</td>
+                          <td className='text-center'><span className="label-custom label label-default">admin</span>
                           </td>
-                           <td className='text-center'><span className="label-danger label label-default">deactive</span>
+                          <td className='text-center'><span className="label-danger label label-default">deactive</span>
                           </td>
-
-                           <td className='text-center'>
+                          <td className='text-center'>
                             <button type="button" className="btn btn-add btn-sm me-1" data-toggle="modal" data-target="#update"><BsFillPencilFill /></button>
                             <button type="button" className="btn btn-danger btn-sm me-1" data-toggle="modal" data-target="#customer2"><BsFillTrashFill /> </button>
                             <button type="button" className="btn btn-success btn-sm me-1" data-toggle="modal" data-target="#customer2"><BsFillHandThumbsUpFill /> </button>
@@ -102,15 +100,14 @@ const Datatable = () => (
                           </td>
                         </tr>
                         <tr>
-                           <td className='text-center fw-bold'>06.</td>
-                           <td className='text-center'><img src="https://stroyka-admin.html.themeforest.scompiler.ru/variants/ltr/images/customers/customer-4-64x64.jpg" className="rounded-circle border border-2 border-secondary" alt="User Image" width={40} height={40} /></td>
-                           <td className='text-center'>Alvaro morata</td>
-                           <td className='text-center'><span className="label-custom label label-default">admin</span>
+                          <td className='text-center fw-bold'>06.</td>
+                          <td className='text-center'><img src="https://stroyka-admin.html.themeforest.scompiler.ru/variants/ltr/images/customers/customer-4-64x64.jpg" className="rounded-circle border border-2 border-secondary" alt="User Image" width={40} height={40} /></td>
+                          <td className='text-center'>Alvaro morata</td>
+                          <td className='text-center'><span className="label-custom label label-default">admin</span>
                           </td>
-                           <td className='text-center'><span className="label-danger label label-default">deactive</span>
+                          <td className='text-center'><span className="label-danger label label-default">deactive</span>
                           </td>
-
-                           <td className='text-center'>
+                          <td className='text-center'>
                             <button type="button" className="btn btn-add btn-sm me-1" data-toggle="modal" data-target="#update"><BsFillPencilFill /></button>
                             <button type="button" className="btn btn-danger btn-sm me-1" data-toggle="modal" data-target="#customer2"><BsFillTrashFill /> </button>
                             <button type="button" className="btn btn-success btn-sm me-1" data-toggle="modal" data-target="#customer2"><BsFillHandThumbsUpFill /> </button>
@@ -118,15 +115,14 @@ const Datatable = () => (
                           </td>
                         </tr>
                         <tr>
-                           <td className='text-center fw-bold'>07.</td>
-                           <td className='text-center'><img src="https://stroyka-admin.html.themeforest.scompiler.ru/variants/ltr/images/customers/customer-4-64x64.jpg" className="rounded-circle border border-2 border-secondary" alt="User Image" width={40} height={40} /></td>
-                           <td className='text-center'>Alvaro morata</td>
-                           <td className='text-center'><span className="label-custom label label-default">admin</span>
+                          <td className='text-center fw-bold'>07.</td>
+                          <td className='text-center'><img src="https://stroyka-admin.html.themeforest.scompiler.ru/variants/ltr/images/customers/customer-4-64x64.jpg" className="rounded-circle border border-2 border-secondary" alt="User Image" width={40} height={40} /></td>
+                          <td className='text-center'>Alvaro morata</td>
+                          <td className='text-center'><span className="label-custom label label-default">admin</span>
                           </td>
-                           <td className='text-center'><span className="label-danger label label-default">deactive</span>
+                          <td className='text-center'><span className="label-danger label label-default">deactive</span>
                           </td>
-
-                           <td className='text-center'>
+                          <td className='text-center'>
                             <button type="button" className="btn btn-add btn-sm me-1" data-toggle="modal" data-target="#update"><BsFillPencilFill /></button>
                             <button type="button" className="btn btn-danger btn-sm me-1" data-toggle="modal" data-target="#customer2"><BsFillTrashFill /> </button>
                             <button type="button" className="btn btn-success btn-sm me-1" data-toggle="modal" data-target="#customer2"><BsFillHandThumbsUpFill /> </button>
@@ -134,15 +130,14 @@ const Datatable = () => (
                           </td>
                         </tr>
                         <tr>
-                           <td className='text-center fw-bold'>08.</td>
-                           <td className='text-center'><img src="https://stroyka-admin.html.themeforest.scompiler.ru/variants/ltr/images/customers/customer-4-64x64.jpg" className="rounded-circle border border-2 border-secondary" alt="User Image" width={40} height={40} /></td>
-                           <td className='text-center'>Alvaro morata</td>
-                           <td className='text-center'><span className="label-custom label label-default">admin</span>
+                          <td className='text-center fw-bold'>08.</td>
+                          <td className='text-center'><img src="https://stroyka-admin.html.themeforest.scompiler.ru/variants/ltr/images/customers/customer-4-64x64.jpg" className="rounded-circle border border-2 border-secondary" alt="User Image" width={40} height={40} /></td>
+                          <td className='text-center'>Alvaro morata</td>
+                          <td className='text-center'><span className="label-custom label label-default">admin</span>
                           </td>
-                           <td className='text-center'><span className="label-danger label label-default">deactive</span>
+                          <td className='text-center'><span className="label-danger label label-default">deactive</span>
                           </td>
-
-                           <td className='text-center'>
+                          <td className='text-center'>
                             <button type="button" className="btn btn-add btn-sm me-1" data-toggle="modal" data-target="#update"><BsFillPencilFill /></button>
                             <button type="button" className="btn btn-danger btn-sm me-1" data-toggle="modal" data-target="#customer2"><BsFillTrashFill /> </button>
                             <button type="button" className="btn btn-success btn-sm me-1" data-toggle="modal" data-target="#customer2"><BsFillHandThumbsUpFill /> </button>
@@ -150,15 +145,14 @@ const Datatable = () => (
                           </td>
                         </tr>
                         <tr>
-                           <td className='text-center fw-bold'>09.</td>
-                           <td className='text-center'><img src="https://stroyka-admin.html.themeforest.scompiler.ru/variants/ltr/images/customers/customer-4-64x64.jpg" className="rounded-circle border border-2 border-secondary" alt="User Image" width={40} height={40} /></td>
-                           <td className='text-center'>Alvaro morata</td>
-                           <td className='text-center'><span className="label-custom label label-default">admin</span>
+                          <td className='text-center fw-bold'>09.</td>
+                          <td className='text-center'><img src="https://stroyka-admin.html.themeforest.scompiler.ru/variants/ltr/images/customers/customer-4-64x64.jpg" className="rounded-circle border border-2 border-secondary" alt="User Image" width={40} height={40} /></td>
+                          <td className='text-center'>Alvaro morata</td>
+                          <td className='text-center'><span className="label-custom label label-default">admin</span>
                           </td>
-                           <td className='text-center'><span className="label-danger label label-default">deactive</span>
+                          <td className='text-center'><span className="label-danger label label-default">deactive</span>
                           </td>
-
-                           <td className='text-center'>
+                          <td className='text-center'>
                             <button type="button" className="btn btn-add btn-sm me-1" data-toggle="modal" data-target="#update"><BsFillPencilFill /></button>
                             <button type="button" className="btn btn-danger btn-sm me-1" data-toggle="modal" data-target="#customer2"><BsFillTrashFill /> </button>
                             <button type="button" className="btn btn-success btn-sm me-1" data-toggle="modal" data-target="#customer2"><BsFillHandThumbsUpFill /> </button>
@@ -166,15 +160,14 @@ const Datatable = () => (
                           </td>
                         </tr>
                         <tr>
-                           <td className='text-center fw-bold'>10.</td>
-                           <td className='text-center'><img src="https://stroyka-admin.html.themeforest.scompiler.ru/variants/ltr/images/customers/customer-4-64x64.jpg" className="rounded-circle border border-2 border-secondary" alt="User Image" width={40} height={40} /></td>
-                           <td className='text-center'>Alvaro morata</td>
-                           <td className='text-center'><span className="label-custom label label-default">admin</span>
+                          <td className='text-center fw-bold'>10.</td>
+                          <td className='text-center'><img src="https://stroyka-admin.html.themeforest.scompiler.ru/variants/ltr/images/customers/customer-4-64x64.jpg" className="rounded-circle border border-2 border-secondary" alt="User Image" width={40} height={40} /></td>
+                          <td className='text-center'>Alvaro morata</td>
+                          <td className='text-center'><span className="label-custom label label-default">admin</span>
                           </td>
-                           <td className='text-center'><span className="label-danger label label-default">deactive</span>
+                          <td className='text-center'><span className="label-danger label label-default">deactive</span>
                           </td>
-
-                           <td className='text-center'>
+                          <td className='text-center'>
                             <button type="button" className="btn btn-add btn-sm me-1" data-toggle="modal" data-target="#update"><BsFillPencilFill /></button>
                             <button type="button" className="btn btn-danger btn-sm me-1" data-toggle="modal" data-target="#customer2"><BsFillTrashFill /> </button>
                             <button type="button" className="btn btn-success btn-sm me-1" data-toggle="modal" data-target="#customer2"><BsFillHandThumbsUpFill /> </button>
@@ -182,15 +175,14 @@ const Datatable = () => (
                           </td>
                         </tr>
                         <tr>
-                           <td className='text-center fw-bold'>11.</td>
-                           <td className='text-center'><img src="https://stroyka-admin.html.themeforest.scompiler.ru/variants/ltr/images/customers/customer-4-64x64.jpg" className="rounded-circle border border-2 border-secondary" alt="User Image" width={40} height={40} /></td>
-                           <td className='text-center'>Alvaro morata</td>
-                           <td className='text-center'><span className="label-custom label label-default">admin</span>
+                          <td className='text-center fw-bold'>11.</td>
+                          <td className='text-center'><img src="https://stroyka-admin.html.themeforest.scompiler.ru/variants/ltr/images/customers/customer-4-64x64.jpg" className="rounded-circle border border-2 border-secondary" alt="User Image" width={40} height={40} /></td>
+                          <td className='text-center'>Alvaro morata</td>
+                          <td className='text-center'><span className="label-custom label label-default">admin</span>
                           </td>
-                           <td className='text-center'><span className="label-danger label label-default">deactive</span>
+                          <td className='text-center'><span className="label-danger label label-default">deactive</span>
                           </td>
-
-                           <td className='text-center'>
+                          <td className='text-center'>
                             <button type="button" className="btn btn-add btn-sm me-1" data-toggle="modal" data-target="#update"><BsFillPencilFill /></button>
                             <button type="button" className="btn btn-danger btn-sm me-1" data-toggle="modal" data-target="#customer2"><BsFillTrashFill /> </button>
                             <button type="button" className="btn btn-success btn-sm me-1" data-toggle="modal" data-target="#customer2"><BsFillHandThumbsUpFill /> </button>
@@ -198,15 +190,14 @@ const Datatable = () => (
                           </td>
                         </tr>
                         <tr>
-                           <td className='text-center fw-bold'>12.</td>
-                           <td className='text-center'><img src="https://stroyka-admin.html.themeforest.scompiler.ru/variants/ltr/images/customers/customer-4-64x64.jpg" className="rounded-circle border border-2 border-secondary" alt="User Image" width={40} height={40} /></td>
-                           <td className='text-center'>Alvaro morata</td>
-                           <td className='text-center'><span className="label-custom label label-default">admin</span>
+                          <td className='text-center fw-bold'>12.</td>
+                          <td className='text-center'><img src="https://stroyka-admin.html.themeforest.scompiler.ru/variants/ltr/images/customers/customer-4-64x64.jpg" className="rounded-circle border border-2 border-secondary" alt="User Image" width={40} height={40} /></td>
+                          <td className='text-center'>Alvaro morata</td>
+                          <td className='text-center'><span className="label-custom label label-default">admin</span>
                           </td>
-                           <td className='text-center'><span className="label-danger label label-default">deactive</span>
+                          <td className='text-center'><span className="label-danger label label-default">deactive</span>
                           </td>
-
-                           <td className='text-center'>
+                          <td className='text-center'>
                             <button type="button" className="btn btn-add btn-sm me-1" data-toggle="modal" data-target="#update"><BsFillPencilFill /></button>
                             <button type="button" className="btn btn-danger btn-sm me-1" data-toggle="modal" data-target="#customer2"><BsFillTrashFill /> </button>
                             <button type="button" className="btn btn-success btn-sm me-1" data-toggle="modal" data-target="#customer2"><BsFillHandThumbsUpFill /> </button>
@@ -214,15 +205,14 @@ const Datatable = () => (
                           </td>
                         </tr>
                         <tr>
-                           <td className='text-center fw-bold'>13.</td>
-                           <td className='text-center'><img src="https://stroyka-admin.html.themeforest.scompiler.ru/variants/ltr/images/customers/customer-4-64x64.jpg" className="rounded-circle border border-2 border-secondary" alt="User Image" width={40} height={40} /></td>
-                           <td className='text-center'>Alvaro morata</td>
-                           <td className='text-center'><span className="label-custom label label-default">admin</span>
+                          <td className='text-center fw-bold'>13.</td>
+                          <td className='text-center'><img src="https://stroyka-admin.html.themeforest.scompiler.ru/variants/ltr/images/customers/customer-4-64x64.jpg" className="rounded-circle border border-2 border-secondary" alt="User Image" width={40} height={40} /></td>
+                          <td className='text-center'>Alvaro morata</td>
+                          <td className='text-center'><span className="label-custom label label-default">admin</span>
                           </td>
-                           <td className='text-center'><span className="label-danger label label-default">deactive</span>
+                          <td className='text-center'><span className="label-danger label label-default">deactive</span>
                           </td>
-
-                           <td className='text-center'>
+                          <td className='text-center'>
                             <button type="button" className="btn btn-add btn-sm me-1" data-toggle="modal" data-target="#update"><BsFillPencilFill /></button>
                             <button type="button" className="btn btn-danger btn-sm me-1" data-toggle="modal" data-target="#customer2"><BsFillTrashFill /> </button>
                             <button type="button" className="btn btn-success btn-sm me-1" data-toggle="modal" data-target="#customer2"><BsFillHandThumbsUpFill /> </button>
@@ -230,15 +220,14 @@ const Datatable = () => (
                           </td>
                         </tr>
                         <tr>
-                           <td className='text-center fw-bold'>14.</td>
-                           <td className='text-center'><img src="https://stroyka-admin.html.themeforest.scompiler.ru/variants/ltr/images/customers/customer-4-64x64.jpg" className="rounded-circle border border-2 border-secondary" alt="User Image" width={40} height={40} /></td>
-                           <td className='text-center'>Alvaro morata</td>
-                           <td className='text-center'><span className="label-custom label label-default">admin</span>
+                          <td className='text-center fw-bold'>14.</td>
+                          <td className='text-center'><img src="https://stroyka-admin.html.themeforest.scompiler.ru/variants/ltr/images/customers/customer-4-64x64.jpg" className="rounded-circle border border-2 border-secondary" alt="User Image" width={40} height={40} /></td>
+                          <td className='text-center'>Alvaro morata</td>
+                          <td className='text-center'><span className="label-custom label label-default">admin</span>
                           </td>
-                           <td className='text-center'><span className="label-danger label label-default">deactive</span>
+                          <td className='text-center'><span className="label-danger label label-default">deactive</span>
                           </td>
-
-                           <td className='text-center'>
+                          <td className='text-center'>
                             <button type="button" className="btn btn-add btn-sm me-1" data-toggle="modal" data-target="#update"><BsFillPencilFill /></button>
                             <button type="button" className="btn btn-danger btn-sm me-1" data-toggle="modal" data-target="#customer2"><BsFillTrashFill /> </button>
                             <button type="button" className="btn btn-success btn-sm me-1" data-toggle="modal" data-target="#customer2"><BsFillHandThumbsUpFill /> </button>
@@ -247,6 +236,21 @@ const Datatable = () => (
                         </tr>
                       </tbody>
                     </table>
+                    <nav aria-label="...">
+                      <ul class="pagination">
+                        <li class="page-item disabled">
+                          <a class="page-link" href="#" tabindex="-1">Previous</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item active">
+                          <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                          <a class="page-link" href="#">Next</a>
+                        </li>
+                      </ul>
+                    </nav>
                   </div>
                 </div>
               </div>
@@ -256,6 +260,6 @@ const Datatable = () => (
       </div>
     </section>
   </>
-  
+
 );
 export default Datatable;

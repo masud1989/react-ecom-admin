@@ -116,7 +116,7 @@ const MainLayout = () => {
               label: "Blogs",
               children: [
                 {
-                  key: "blog",
+                  key: "add-blog",
                   label: "Add Blog",
                 },
                 {
@@ -124,7 +124,7 @@ const MainLayout = () => {
                   label: "Blog List",
                 },
                 {
-                  key: "blog-category",
+                  key: "add-blog-category",
                   label: "Add Blog Category",
                 },
                 {

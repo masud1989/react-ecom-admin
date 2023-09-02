@@ -19,8 +19,8 @@ const LoginPage = () => {
               Forgot Password?
             </Link>
           </div>
-          <div>
-            <button to='/admin'
+            <div>
+              <button to='admin'
               className='border-0 px-3 py-2 text-white w-100'
               style={{ background: "#008080" }}
               type='submit'

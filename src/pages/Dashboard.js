@@ -49,10 +49,22 @@ const DashboardPage = () => {
         </div>
       </div>
       <br></br>
-      {/* charts  */}
-      <Chart />
+      <div className="row">
+            <div className="col-sm-12">
+              <div className="panel panel-bd lobidrag">
+                <div className="panel-body">
       <div className='mt-5 text-center'>
-        <h3 className='mb-4 title'>Recent Orders</h3>
+     
+        <Chart />
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      {/* charts  */}
+      {/* <Chart /> */}
+
+      <div className='mt-5 text-center'>
         <Datatable />
       </div>
     </div>

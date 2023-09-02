@@ -84,16 +84,36 @@ import { Column } from "@ant-design/plots";
   //charts
 const Chart = () => {
   return (
+    // <div>
+    //      {/* charts */}
+    //   <div className="mt-4">
+    //     {/* <h3 className="title text-center">Income Statics</h3> */}
+    //     <div>
+    //       <Column {...config} />
+    //     </div>
+    //   </div>
+    //   {/* charts  */}
+    // </div>
+    <section className='content-header'>
     <div>
-         {/* charts */}
-      <div className="mt-4">
-        <h3 className="title text-center">Income Statics</h3>
-        <div>
-          <Column {...config} />
+    <h3 className='mb-4 title'>Income Statics..</h3>
+      <section className="content">
+        <div className="row">
+          <div className="col-md-12">
+            <div className="panel panel-bd lobidrag">
+              <div className="panel-body">
+                <div className="table-responsive">
+                  <div>
+                    <Column {...config} />
+                 </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-      {/* charts  */}
+      </section>
     </div>
+  </section>
   )
 }
 

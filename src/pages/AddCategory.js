@@ -1,7 +1,9 @@
-import React from 'react';
-import CustomInput from '../components/CustomInput';
+import React from 'react'
+import CustomInput from '../components/CustomInput'
 
-const AddColor = () => {
+
+
+const AddCategory = () => {
     return (
         <>
             <section className="content-header">
@@ -9,25 +11,25 @@ const AddColor = () => {
                     <i className="fa fa-user-plus" />
                 </div>
                 <div className="header-title mb-3">
-                    <h1>Color</h1>
-                    <small>Add New Color</small>
+                    <h1>Category</h1>
+                    <small>Add New Category</small>
                 </div>
             </section>
             <form>
                 <section className='content-header'>
-
+                    
                     <div className="row mt-3">
                         <div className='col-10'>
-                            <CustomInput type="text" placeholder="Type Color Name" id="color-name" />
+                            <CustomInput type="text" placeholder="Type Category Name" id="ccategory-name" />
                         </div>
                     </div>
-
-
+                    
+                    
                     <button to='/'
                         className='save-btn'
                         type='submit'
                     >
-                        Add Color
+                        Add Category
                     </button>
                 </section>
             </form>
@@ -35,4 +37,4 @@ const AddColor = () => {
     )
 }
 
-export default AddColor
+export default AddCategory

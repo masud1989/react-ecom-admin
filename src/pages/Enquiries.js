@@ -9,11 +9,10 @@ const Enquiries = () => {
             <i className="fa fa-user-plus" />
         </div>
         <div className="header-title">
-            <h1>Enqueries</h1>
-            <small>Enquery List</small>
+            <h1>Enquiries</h1>
+            <small>Enquiries List</small>
         </div>
     </section>
-    
     <Datatable />
 </>
   )
